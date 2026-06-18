@@ -1,8 +1,8 @@
-# Thai ID Kit Demo
+# Thai ID Helper Demo
 
-🚀 **Live Demo:** [https://krizad.github.io/thai-id-kit-demo/](https://krizad.github.io/thai-id-kit-demo/)
+🚀 **Live Demo:** [https://krizad.github.io/thai-id-helper-demo/](https://krizad.github.io/thai-id-helper-demo/)
 
-This is a demonstration application for the [@krizad/thai-id-kit](https://www.npmjs.com/package/@krizad/thai-id-kit) npm package.
+This is a demonstration application for the [@krizad/thai-id-helper](https://www.npmjs.com/package/@krizad/thai-id-helper) npm package.
 
 It showcases the capabilities of the library:
 - 🛡️ **Validation:** Checking if an ID is valid
@@ -21,5 +21,5 @@ npm run dev
 ## 📦 About the Package
 
 You can find the source code and documentation for the core utility package here:
-- **NPM:** [https://www.npmjs.com/package/@krizad/thai-id-kit](https://www.npmjs.com/package/@krizad/thai-id-kit)
-- **GitHub:** [https://github.com/krizad/thai-id-kit](https://github.com/krizad/thai-id-kit)
+- **NPM:** [https://www.npmjs.com/package/@krizad/thai-id-helper](https://www.npmjs.com/package/@krizad/thai-id-helper)
+- **GitHub:** [https://github.com/krizad/thai-id-helper-package](https://github.com/krizad/thai-id-helper-package)

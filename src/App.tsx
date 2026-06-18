@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { validateThaiID, formatThaiID, maskThaiID, generateMockThaiID, extractThaiIDInfo, type ThaiIDInfo } from "@krizad/thai-id-kit";
+import { validateThaiID, formatThaiID, maskThaiID, generateMockThaiID, extractThaiIDInfo, type ThaiIDInfo } from "@krizad/thai-id-helper";
 
 function App() {
   const [inputValue, setInputValue] = useState("");
@@ -163,7 +163,7 @@ function App() {
               {"  "}
               <span className="code-function">validateThaiID</span>
               {"\n"}
-              {"}"} <span className="code-keyword">from</span> <span className="code-string">'@krizad/thai-id-kit'</span>;{"\n"}
+              {"}"} <span className="code-keyword">from</span> <span className="code-string">'@krizad/thai-id-helper'</span>;{"\n"}
               {"\n"}
               <span className="code-keyword">const</span> isValid = <span className="code-function">validateThaiID</span>(<span className="code-string">'1100100123456'</span>);{"\n"}
               <span className="code-keyword">console</span>.<span className="code-function">log</span>(isValid); <span className="code-comment">// true</span>
@@ -183,7 +183,7 @@ function App() {
               {"  "}
               <span className="code-function">formatThaiID</span>
               {"\n"}
-              {"}"} <span className="code-keyword">from</span> <span className="code-string">'@krizad/thai-id-kit'</span>;{"\n"}
+              {"}"} <span className="code-keyword">from</span> <span className="code-string">'@krizad/thai-id-helper'</span>;{"\n"}
               {"\n"}
               <span className="code-keyword">const</span> formatted = <span className="code-function">formatThaiID</span>(<span className="code-string">'1100100123456'</span>);{"\n"}
               <span className="code-keyword">console</span>.<span className="code-function">log</span>(formatted); <span className="code-comment">// '1-1001-00123-45-6'</span>
@@ -203,7 +203,7 @@ function App() {
               {"  "}
               <span className="code-function">maskThaiID</span>
               {"\n"}
-              {"}"} <span className="code-keyword">from</span> <span className="code-string">'@krizad/thai-id-kit'</span>;{"\n"}
+              {"}"} <span className="code-keyword">from</span> <span className="code-string">'@krizad/thai-id-helper'</span>;{"\n"}
               {"\n"}
               <span className="code-keyword">const</span> masked = <span className="code-function">maskThaiID</span>(<span className="code-string">'1100100123456'</span>);{"\n"}
               <span className="code-keyword">console</span>.<span className="code-function">log</span>(masked); <span className="code-comment">// '1-1001-XXXXX-XX-6'</span>
@@ -223,7 +223,7 @@ function App() {
               {"  "}
               <span className="code-function">extractThaiIDInfo</span>
               {"\n"}
-              {"}"} <span className="code-keyword">from</span> <span className="code-string">'@krizad/thai-id-kit'</span>;{"\n"}
+              {"}"} <span className="code-keyword">from</span> <span className="code-string">'@krizad/thai-id-helper'</span>;{"\n"}
               {"\n"}
               <span className="code-keyword">const</span> info = <span className="code-function">extractThaiIDInfo</span>(<span className="code-string">'1100100123456'</span>);{"\n"}
               <span className="code-keyword">console</span>.<span className="code-function">log</span>(info.provinceCode); <span className="code-comment">// '10'</span>

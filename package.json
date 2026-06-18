@@ -1,5 +1,5 @@
 {
-  "name": "thai-id-kit-demo",
+  "name": "thai-id-helper-demo",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@krizad/thai-id-kit": "^1.0.3",
+    "@krizad/thai-id-helper": "^1.0.0",
     "react": "^19.2.6",
     "react-dom": "^19.2.6"
   },
